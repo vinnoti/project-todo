@@ -1,8 +1,6 @@
 <template>
-  <v-row justify="center">
-    <v-btn color="orange" dark @click.stop="dialog = true">
-      Edit Todo
-    </v-btn>
+  <v-row>
+    <v-icon @click.stop="dialog = true">edit</v-icon>
     <v-dialog v-model="dialog" max-width="700">
       <v-card>
         <v-card-title>

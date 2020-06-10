@@ -24,9 +24,11 @@
                 </v-container>
               </v-card-text>
               <v-card-actions>
-                <v-btn @click="deleteTodo(todo.id)">
+                <v-spacer></v-spacer>
+                <v-icon @click="deleteTodo(todo.id)">
                   delete
-                </v-btn>
+                </v-icon>
+                <v-spacer></v-spacer>
                <EditTodo :todo="todo" />
               </v-card-actions>
             </v-card>
