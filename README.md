@@ -2,11 +2,11 @@
 
 List End Point:
 
-GET (url)/api/todo/detail?id=2
-GET (url)/api/todo/list
-POST (url)/api/todo/create
-PATCH (url)/api/todo/update?id=2
-DELETE (url)/api/todo/delete?id=2
+- GET (url)/api/todo/detail?id=2
+- GET (url)/api/todo/list
+- POST (url)/api/todo/create
+- PATCH (url)/api/todo/update?id=2
+- DELETE (url)/api/todo/delete?id=2
 
 response example:
 
